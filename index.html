@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Garden</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+
+
+<body>
+
+  <section id = "sec1">
+
+      <img id="lily1" src="assets/leaflily.png"/>
+      <img id="lily2" src="assets/leaflily.png"/>
+
+  </section>
+  <img id="lily3" src="assets/leaflily.png"/> 
+
+  <section id = "sec2">
+
+    
+    <img id="lily4" src="assets/leaflily.png"/> 
+
+    <div id="metaphorGrid">
+
+        <div class="boxr1" > Sunlight as Users
+          <img id="i1" class="metaphorImg" src="assets/sunlight.png" 
+                onmouseover="change('i1','assets/user.png')" 
+                onmouseout="change('i1','assets/sunlight.png')"
+                onclick="reveal('i1')"/></div>
+
+        <div class="boxr1" style="left:25vh"> Soil as Profits
+          <img id="i2" class="metaphorImg" src="assets/soil.png"
+                onmouseover="change('i2','assets/profit.png')" 
+                onmouseout="change('i2','assets/soil.png')"
+                onclick="reveal('i2')"/></div>
+
+        <div class="boxr1"style="left:50vh"> Soil Nutrients as Engagement Metrics
+          <img id="i3" class="metaphorImg" src="assets/nutrients.png"
+                onmouseover="change('i3','assets/engagement.png')" 
+                onmouseout="change('i3','assets/nutrients.png')"
+                onclick="reveal('i3')"/></div>
+        
+        <div class="boxr1" style="left:75vh"> Other Plants as Competeting Platforms
+          <img id="i4" class="metaphorImg" src="assets/plants.png"
+                onmouseover="change('i4','assets/competitive.png')" 
+                onmouseout="change('i4','assets/plants.png')"
+                onclick="reveal('i4')"/></div>
+
+        
+        
+        <div class="boxr2" style= > Individual Flowers as Features
+          <img id="i5" class="metaphorImg" src="assets/flower.png"
+                onmouseover="change('i5','assets/feature.png')" 
+                onmouseout="change('i5','assets/flower.png')"
+                onclick="reveal('i5')"/></div>
+        
+        <div class="boxr2" style="left:25vh" > Petals as Affordances of Features
+          <img id="i6" class="metaphorImg" src="assets/petal.png"
+                onmouseover="change('i6','assets/affordance.png')" 
+                onmouseout="change('i6','assets/petal.png')"
+                onclick="reveal('i6')"/></div>
+
+        <div class="boxr2"style="left:50vh" > Nectar as Entertainment Factor
+          <img id="i7" class="metaphorImg" src="assets/nectar.png"
+                onmouseover="change('i7','assets/entertainment.png')" 
+                onmouseout="change('i7','assets/nectar.png')"
+                onclick="reveal('i7')"/></div>
+
+        <div class="boxr2"style="left:75vh" > Pollination as the Algorithm
+          <img id="i8"class="metaphorImg" src="assets/pollination.png"
+                onmouseover="change('i8','assets/algorithm.png')" 
+                onmouseout="change('i8','assets/pollination.png')"
+                onclick="reveal('i8')"/> </div>
+
+
+
+        <div class="boxr3"> Pollinators as Content Creators
+          <img  id="i9" class="metaphorImg" src="assets/bee.png"
+                onmouseover="change('i9','assets/creator.png')" 
+                onmouseout="change('i9','assets/bee.png')"
+                onclick="reveal('i9')"/></div>
+
+        <div class="boxr3" style="left:25vh"> Fertilizer as Advertizement
+          <img id="i10" class="metaphorImg" src="assets/fertilizer.png"
+                onmouseover="change('i10','assets/ads.png')" 
+                onmouseout="change('i10','assets/fertilizer.png')"
+                onclick="reveal('i10')"/></div>
+          
+        <div class="boxr3" style="left:50vh"> Changes in the Weather as Shifts in the Algorithim
+          <img id="i11" class="metaphorImg" src="assets/weather.png"
+                onmouseover="change('i11','assets/changes.png')" 
+                onmouseout="change('i11','assets/weather.png')"
+                onclick="reveal('i11')"/></div>
+
+        <div class="boxr3" style="left:75vh"> Seasons as Trends
+          <img id="i12" class="metaphorImg" src="assets/season.png"
+                onmouseover="change('i12','assets/trends.png')" 
+                onmouseout="change('i12','assets/season.png')"
+                onclick="reveal('i12')"/></div>
+
+  
+        
+
+    </div>
+
+  </section>
+
+  <section id = "sec3">
+
+    <div id="timelinetitle"></div>
+
+    <div class="timeline">
+      <img id="t1" class="timelineImg" src="assets/bud.png"
+        onmouseover= "change('t1','assets/pinkblank.png')" 
+        onmouseout= "change('t1','assets/bud.png')"/>
+
+      <img id="t2" style="position:absolute; left: 17vw" class="timelineImg" src="assets/bloom.png"
+        onmouseover= "change('t2','assets/pinkblank.png')" 
+        onmouseout= "change('t2','assets/bloom.png')"/>
+
+      <img id="t3" style="position:absolute; left:34vw" class="timelineImg" src="assets/blossom.png"
+        onmouseover= "change('t3','assets/pinkblank.png')" 
+        onmouseout= "change('t3','assets/blossom.png')"/>
+
+      <img id="t4" style="position:absolute; left:51vw" class="timelineImg" src="assets/withering.png"
+        onmouseover= "change('t4','assets/pinkblank.png')" 
+        onmouseout= "change('t4','assets/withering.png')"/>
+
+      <img id="t5" style="position:absolute; left:68vw" class="timelineImg" src="assets/withered.png"
+        onmouseover= "change('t5','assets/pinkblank.png')" 
+        onmouseout= "change('t5','assets/withered.png')"/>
+
+    </div>
+    
+
+  </section>
+
+  <section id = "sec4">
+    <img style="position: absolute;max-width:100%; max-height:20%" src="assets/leafy.png"/>
+  </section>
+<section id = "sec5"></section>
+
+
+</body>
+
+<header><h1>&nbsp;&nbsp;&nbsp;Task 3</h1></header>
+
+</html>
